@@ -1,6 +1,118 @@
-.custom_container {
-  max-width: 1140px;
-  margin: auto;
+.custom_title_wrapper {
+  width: 100%;
+}
+
+.custom_title_wrapper h2 {
+  color: #273c88;
+  font-family: "Roboto", Sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.custom_title_wrapper p {
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.see_more_details {
+  padding: 8px 15px;
+  background-color: #0061FF;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: .2s all ease-in-out;
+}
+
+.see_more_details:hover {
+  color: #fff;
+  background-color: #1292EE;
+}
+
+.custom_our_programs_grid {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid {
+  padding: 20px 0;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 -15px 35px;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card:nth-of-type(even) .program_desc {
+  text-align: right;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .image_wrap {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+  height: 340px;
+  overflow: hidden;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .image_wrap img {
+  border-radius: 10px;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 20px 15px 0;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc h4 {
+  font-size: 22px;
+  color: #273c88;
+  line-height: 29px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc p {
+  font-size: 18px;
+  color: #000;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc ul li {
+  font-size: 20px;
+  color: #000;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.custom_our_programs_grid .brahmas_prof_programs_grid .program_card .program_desc ul li span {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
 .custom_header {
@@ -155,12 +267,19 @@
   width: 100%;
 }
 
+.custom_container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 10px;
+}
+
 div#n2-ss-3 .nextend-arrow img {
   width: 24px !important;
   height: 24px !important;
 }
 
-div#n2-ss-3-arrow-next, div#n2-ss-3-arrow-previous {
+div#n2-ss-3-arrow-next,
+div#n2-ss-3-arrow-previous {
   padding: 10px !important;
   margin: 10px !important;
   opacity: 0.5 !important;
@@ -168,7 +287,8 @@ div#n2-ss-3-arrow-next, div#n2-ss-3-arrow-previous {
   background-color: #fff !important;
 }
 
-div#n2-ss-3-arrow-next:hover, div#n2-ss-3-arrow-previous:hover {
+div#n2-ss-3-arrow-next:hover,
+div#n2-ss-3-arrow-previous:hover {
   opacity: 1 !important;
 }
 
@@ -178,7 +298,7 @@ div#n2-ss-3-arrow-next:hover, div#n2-ss-3-arrow-previous:hover {
 }
 
 .n2-ss-slider .n2-ss-slide-background .n2-ss-slide-background-image::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 2;
   display: block;
@@ -189,17 +309,30 @@ div#n2-ss-3-arrow-next:hover, div#n2-ss-3-arrow-previous:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-div#n2-ss-3 .n2-font-65619cb7d6b43592885db3ff55b82094-hover, div#n2-ss-3 .n2-font-83a981a8f96a394fb193de8e7c4e57a6-hover {
+div#n2-ss-3 .n2-font-65619cb7d6b43592885db3ff55b82094-hover,
+div#n2-ss-3 .n2-font-83a981a8f96a394fb193de8e7c4e57a6-hover {
   color: #fff !important;
   text-shadow: none !important;
 }
 
 div#n2-ss-3 .n-uc-190011102adec-inner:hover {
-  --n2bggradient:none !important
-;
+  --n2bggradient: none !important;
 }
 
 a.n2-ow {
+  background: none !important;
   background-color: #273c88 !important;
-  background: #273c88 !important;
+  border-radius: 10px;
+}
+
+.n2-ss-slider .n2-ss-slide-background .n2-ss-slide-background-color {
+  z-index: 0 !important;
+}
+
+.n2-ss-layer.n2-ow {
+  margin-bottom: 0px !important;
+}
+
+.elementor-social-icon:last-child {
+  border-radius: 50%;
 }

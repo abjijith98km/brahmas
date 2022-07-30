@@ -1,0 +1,35 @@
+.custom_title_wrapper {
+  width: 100%;
+  h2 {
+    color: #273c88;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  p{
+    color: #000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+
+  }
+}
+
+
+.see_more_details{
+  padding: 8px 15px;
+  background-color: #0061FF;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: .2s all ease-in-out;
+  &:hover{
+    color: #fff;
+    background-color: #1292EE;
+  }
+}
